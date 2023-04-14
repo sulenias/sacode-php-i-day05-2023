@@ -17,13 +17,13 @@
 	
 	
 
-	$query = "CREATE database db_05_01";
-	error_reporting(0);
-	if(mysqli_query($koneksi, $query)){
-		echo "Buat Database Berhasil";
-	} else {
-		echo "Database Gagal" . mysqli_error($koneksi);
-	}
+	// $query = "CREATE database db_05_01";
+	// error_reporting(0);
+	// if(mysqli_query($koneksi, $query)){
+	// 	echo "Buat Database Berhasil";
+	// } else {
+	// 	echo "Database Gagal" . mysqli_error($koneksi);
+	// }
 
 	echo "<br> Koneksi Berhasil";
 
