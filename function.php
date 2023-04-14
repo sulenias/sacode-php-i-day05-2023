@@ -15,6 +15,7 @@
 		die;
 	}
 	
+	
 
 	$query = "CREATE database db_05_01";
 	error_reporting(0);
